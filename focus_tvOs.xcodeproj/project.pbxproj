@@ -40,7 +40,7 @@
 		2F6AAA8B2257734B0033F90F = {
 			isa = PBXGroup;
 			children = (
-				2F6AAA962257734B0033F90F /* UsingSwipeTVOS */,
+				2F6AAA962257734B0033F90F /* focus_tvOs */,
 				2F6AAA952257734B0033F90F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F6AAA962257734B0033F90F /* UsingSwipeTVOS */ = {
+		2F6AAA962257734B0033F90F /* focus_tvOs */ = {
 			isa = PBXGroup;
 			children = (
 				2F6AAA972257734B0033F90F /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				2F6AAA9E2257734F0033F90F /* Assets.xcassets */,
 				2F6AAAA02257734F0033F90F /* Info.plist */,
 			);
-			path = UsingSwipeTVOS;
+			path = focus_tvOs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F6AAA8F2257734B0033F90F /* Build configuration list for PBXProject "UsingSwipeTVOS" */;
+			buildConfigurationList = 2F6AAA8F2257734B0033F90F /* Build configuration list for PBXProject "focus_tvOs" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -279,12 +279,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ922JMCL6;
-				INFOPLIST_FILE = UsingSwipeTVOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/focus_tvOs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Paloma-Bispo.UsingSwipeTVOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paloma-Bispo.focus-tvOs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -298,12 +298,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ922JMCL6;
-				INFOPLIST_FILE = UsingSwipeTVOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/focus_tvOs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Paloma-Bispo.UsingSwipeTVOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paloma-Bispo.focus-tvOs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F6AAA8F2257734B0033F90F /* Build configuration list for PBXProject "UsingSwipeTVOS" */ = {
+		2F6AAA8F2257734B0033F90F /* Build configuration list for PBXProject "focus_tvOs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F6AAAA12257734F0033F90F /* Debug */,
